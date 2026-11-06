@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="taschenrechner.css" />
+    <link rel="icon" type="image/x-icon" href="taschenrechner.png">
+  </head>
+  <body>
+    <h1>Taschenrechner</h1>
+
+    <div class="rechnerBody">
+      <form>
+        <div class="eingabe">
+          <label for="zahl1">Zahl 1:</label>
+          <input type="number" class="inputZahl1" id="zahl1" placeholder="Erste Zahl..." />
+        </div>
+        <select id="operator" name="operator" class="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <div class="eingabe">
+          <label for="zahl2">Zahl 2:</label>
+          <input type="number" class="inputZahl2" id="zahl2" placeholder="Zweite Zahl..." />
+        </div>
+
+        <button type="button" onclick="berechnen()">Berechnen</button>
+      </form>
+    </div>
+
+
+    <div class="resultBody">
+      <label class="result" id="result"><strong>0</strong></label>
+
+    </div>
+
+  </body>
+  <script src="taschenrechner.js"></script>
+</html>

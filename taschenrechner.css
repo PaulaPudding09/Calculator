@@ -1,0 +1,45 @@
+.rechnerBody form,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.eingabe {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.inputZahl1,
+.inputZahl2 {
+  color: black;
+  background-color: rgb(205, 227, 220);
+  border-color: aquamarine;
+  width: 120px;
+  height: 20px;
+}
+
+.operator {
+  color: black;
+  background-color: rgb(205, 227, 220);
+  border-color: aquamarine;
+}
+
+.resultBody {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
